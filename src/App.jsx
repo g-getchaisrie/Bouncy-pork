@@ -107,22 +107,6 @@ export default function App() {
               Level +20
             </p>
           </div>
-
-          <div style={{ textAlign: "center" }}>
-            <img
-              src={buttonImages[2]}
-              alt="button"
-              style={buttonImageStyle}
-              onClick={() => increaseLevel(30)}
-              onMouseDown={(e) => (e.currentTarget.style.transform = "scale(0.9)")}
-              onMouseUp={(e) => (e.currentTarget.style.transform = "scale(1)")}
-            />
-            <p onClick={() => increaseLevel(30)} style={buttonText}>
-              Level +30
-            </p>
-          </div>
-          <div style={{ textAlign: "center" }}>
-          </div>
         </div>
       </div>
     </div>
